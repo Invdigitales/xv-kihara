@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Calligraffitti&family=Covered+By+Your+Grace&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Limelight&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Quince años Kihara🤍 </title>
+</head>
+
+<body>
+  
+  <div>
+    <img   src="./imagenes/portada.jpg" alt="" srcset="">
+  </div>
+
+ 
+<!-- PRELOADER -->
+    <div class="preloader-container" id="preloader">
+        <div class="loader-icon-wrapper">
+            <div class="glow-ring"></div>
+            
+            <!-- SVG Dinámico -->
+            <svg class="loader-svg" viewBox="0 0 100 100">
+                <!-- FLOR AZUL -->
+                <g id="flowerShape" class="svg-shape active">
+                    <path class="draw-path" fill="#38bdf8" stroke="#7dd3fc" stroke-width="2" d="M50 20 C45 5, 35 5, 30 20 C15 15, 10 25, 20 35 C5 40, 5 50, 20 55 C10 65, 15 75, 30 70 C35 85, 45 85, 50 70 C55 85, 65 85, 70 70 C85 75, 90 65, 80 55 C95 50, 95 40, 80 35 C90 25, 85 15, 70 20 C65 5, 55 5, 50 20 Z" />
+                    <circle cx="50" cy="50" r="12" fill="#0ea5e9" stroke="#ffffff" stroke-width="2"/>
+                </g>
+
+                <!-- CORAZÓN AZUL -->
+                <g id="heartShape" class="svg-shape">
+                    <path class="draw-path" fill="#38bdf8" stroke="#7dd3fc" stroke-width="2" d="M50 85 C50 85, 15 60, 15 35 C15 20, 27 10, 40 15 C48 18, 50 25, 50 25 C50 25, 52 18, 60 15 C73 10, 85 20, 85 35 C85 60, 50 85, 50 85 Z" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="loader-percentage" id="percentage">0%</div>
+        <div class="loader-progress-bar">
+            <div class="loader-progress-fill" id="progressFill"></div>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="main-content" id="mainContent">
+        <h1></h1>
+   
+    </div>
+
+
+
+
+  <div class="arrow">
+    <span></span>
+</div>
+ <audio id="audio" src="./Hay un Cuento - Floricienta.mp3"></audio>
+
+<div class="music-player" id="player">
+  <button class="play-btn" id="playBtn">𝅘𝅥𝅮</button>
+</div>
+  <div class="main">
+
+    <section class="cuenta-regresiva">
+        <div class="cr-block">
+            <div class="cr-time">
+                <span id="cre-dia">
+                    00
+                </span>
+            </div>
+            <div class="cr-desc">
+                Dias
+            </div>
+        </div>
+        <div class="cr-block">
+            <div class="cr-time">
+                <span id="cre-hora">
+                    00
+                </span>
+            </div>
+            <div class="cr-desc">
+                Horas
+            </div>
+        </div>
+        <div class="cr-block">
+            <div class="cr-time">
+                <span id="cre-minuto">
+                    00
+                </span>
+            </div>
+            <div class="cr-desc">
+                Minutos
+            </div>
+        </div>
+        <div class="cr-block">
+            <div class="cr-time">
+                <span id="cre-segundo">
+                    00
+                </span>
+            </div>
+            <div class="cr-desc">
+                Segundos
+            </div>
+        </div>
+    </section>
+
+</div>
+    
+ <img class="segundo" src="./imagenes/segundo.gif" alt="">
+<br>
+
+        <img class="imguno" src="./imagenes/1.jpeg"></div>
+
+        <img class="calendario" src="./imagenes/calen.png"></div>
+
+
+ <img class="fondo1" src="imagenes/FONDO.png" alt="">
+ <img class="fondo2" src="./imagenes/FONDO.png" alt="">
+ <img class="fondo1" src="imagenes/FONDO.png" alt="">
+ <img class="fondo2" src="./imagenes/FONDO.png" alt="">
+ <div class="cajaceremonia">
+    <p class="parrafo1">¡Tu presencia es el mejor regalo! <br>
+       Acompáñame a celebrar este día tan especial.  </p>  <br><br>
+
+   
+
+    <img src="imagenes/img_lineas01.svg" alt=""> <br>
+
+
+
+    <br>
+      <img class="copas" src="./imagenes/copas.png" alt="">
+      <p class="parrafo2">Fiesta</p> 
+<p class="parrafo3">
+  Sábado 19 de Diciembre. <br>
+21:30 Hs <br>
+    Salón: Gutierrez eventos. <br>
+Lincol 1009
+</p> 
+
+   <button class="click1" id="btn">Como llegar</button>
+
+
+<br>
+<br><br>
+ <img src="imagenes/img_ondas03.svg" alt=""> <br>
+
+
+  <p class="parrafo6">¿Venís?</p>
+
+
+<a href="https://wa.me/+5493815685756" target="_blank">
+  <img class="whatsap" src="./imagenes/whasap.png" alt="">
+ </a>
+<br>
+
+
+
+
+<h6 class="icono">Accede al icono de whatsApp <br>Fecha limite para confirmar 4/12 </h6>
+
+
+<br>
+   <img class="imguno" src="./imagenes/final.jpeg"></div>
+
+<br>
+
+
+
+<p class="parrafovestimenta">Dress Code</p> 
+<img class="percha" src="./imagenes/percha (1).png" alt="">
+<br><br>
+ <p class="parrafo3"> Obviar todo tipo de vestimenta <br> que sea de color azul. </p>
+<br>
+ 
+
+
+
+
+<p class="parrafovestimenta">Regalos</p> 
+<img class="percha" src="./imagenes/regalo.png" alt="">
+<br><br>
+ <p class="parrafo3"> Contaremos con un cofre para <br> sobres en el ingreso. </p>
+<br>
+
+
+
+
+<br>
+    <img src="imagenes/img_lineas01.svg" alt=""> <br>
+<section class="musicaa">
+
+  <div class="card-musica">
+
+    <h3 class="subtitulo">Música</h3>
+
+    <img class="icono" src="./imagenes/musica.png" alt="">
+
+    <p class="texto">
+      ¿Cuál es la canción que no <br> debe faltar en la PlayList <br> de la fiesta?
+    </p>
+
+  
+
+
+<form
+  action="https://formsubmit.co/02a7a03708b4852bcaa43f674a40a246"
+  method="POST"
+  class="rsvp-form">
+
+
+
+  <!-- Configuración -->
+  <input type="hidden" name="_subject" value="Nueva confirmación de asistencia">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+<br><br>
+  <label>Nombre de canción *</label>
+  <input type="text" name="Nombre" required>
+
+
+
+  <button type="submit">Enviar</button>
+
+</form>
+
+
+  </div>
+
+</section>
+  
+
+
+        <br><br>    
+
+
+
+  <p class="obsequio">Álbum de fotos </p>
+
+  <img  class="camara" src="./imagenes/camara.png" alt="">
+<br><br>
+<p class="parrafo3">Escanea en código Qr y <br> subí las fotos que saques en la fiesta.</p>
+
+
+<img class="qr" src="./imagenes/QR.png" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+   <img class="imguno" src="./imagenes/4.jpeg"></div>
+    
+
+
+
+
+ <p class="parrafo_esperamos">¡Te espero!</p>
+
+<p class="maga">Kihara</p>
+
+
+
+
+
+
+
+  <p class="box__copyright">Sitio desarrollado por <b> <a
+        href=" https://www.instagram.com/invites/contact/?i=u1xzn8scfuha&utm_content=qbd7xox">
+        digit_invitaciones7</a></b> <br>Verónica Trejo - Laborde <br> Tel: 353-4298436</p> 
+  </div>
+  
+
+
+
+
+<script>
+        const preloader = document.getElementById('preloader');
+        const mainContent = document.getElementById('mainContent');
+        const percentageEl = document.getElementById('percentage');
+        const progressFill = document.getElementById('progressFill');
+        
+        const flowerShape = document.getElementById('flowerShape');
+        const heartShape = document.getElementById('heartShape');
+        const btnFlower = document.getElementById('btnFlower');
+        const btnHeart = document.getElementById('btnHeart');
+
+        let currentProgress = 0;
+        let loadInterval;
+
+        function startLoading() {
+            currentProgress = 0;
+            preloader.classList.remove('fade-out');
+            mainContent.classList.remove('visible');
+
+            loadInterval = setInterval(() => {
+                currentProgress += Math.floor(Math.random() * 4) + 1; // Incremento aleatorio fluido
+                if (currentProgress >= 100) {
+                    currentProgress = 100;
+                    clearInterval(loadInterval);
+                    
+                    // Ocultar preloader y mostrar contenido
+                    setTimeout(() => {
+                        preloader.classList.add('fade-out');
+                        mainContent.classList.add('visible');
+                    }, 400);
+                }
+                percentageEl.textContent = currentProgress + '%';
+                progressFill.style.width = currentProgress + '%';
+            }, 40);
+        }
+
+        function setShape(shape) {
+            if (shape === 'flower') {
+                flowerShape.classList.add('active');
+                heartShape.classList.remove('active');
+                btnFlower.classList.add('active');
+                btnHeart.classList.remove('active');
+            } else {
+                heartShape.classList.add('active');
+                flowerShape.classList.remove('active');
+                btnHeart.classList.add('active');
+                btnFlower.classList.remove('active');
+            }
+        }
+
+        function restartLoader() {
+            clearInterval(loadInterval);
+            startLoading();
+        }
+
+        // Iniciar al cargar la página
+        window.onload = startLoading;
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonym-ous"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
