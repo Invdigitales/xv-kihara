@@ -64,7 +64,12 @@ margin-left: 68%;
      font-size: 40px;
      color: #2d56a5;
      margin-top: 18%;
+     text-align: center;
     
+}
+
+.cancion{
+  text-align: center;
 }
 .parrafovestimenta{
 
@@ -629,7 +634,62 @@ margin-top: -50%;
   
   }
 
-
+.music-form {
+      background: #ffffff;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      
+    }
+    .music-form h2 {
+      margin-top: 0;
+      color: #333;
+      text-align: center;
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #555;
+      text-align: center;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 14px;
+      text-align: center;
+    }
+    .btn-submit {
+   padding: 2px 10px;
+    font-size: 19px;
+    font-weight: 1200;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #2d56a5;
+    border-radius: 7px;
+    box-shadow: 1px 1px 30px -5px rgb(232, 248, 207);
+    cursor: pointer;
+    margin-left: 32%;
+    background-size: 120%;
+    margin-top: 4%;
+    background-image: url(./imagenes/brillo.gif);
+    background-size: 150%;
+      font-family: "Poppins", sans-serif;
+  
+    }
+    .btn-submit:hover {
+      background-color: #a3b0ce;
+    }
   /* Botón play */
   .play-btn {
     font-size: 15px;

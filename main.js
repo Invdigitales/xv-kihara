@@ -69,7 +69,7 @@ boton.addEventListener("click", () => {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3902100123046!2d-60.7996341!3d-37.54586940000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9593649dac63201f%3A0x8003df1e4d68a12a!2sBuffet%20del%20centro%20recreativo!5e0!3m2!1ses!2sar!4v1784849335663!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3560.0805193699557!2d-65.24962932456286!3d-26.83739117669157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzE0LjYiUyA2NcKwMTQnNDkuNCJX!5e0!3m2!1ses!2sar!4v1795303306343!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
         'Podes ampliar el mapa',
         
         
