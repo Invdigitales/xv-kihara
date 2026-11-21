@@ -71,7 +71,7 @@
  <audio id="audio" src="./Hay un Cuento - Floricienta.mp3"></audio>
 
 <div class="music-player" id="player">
-  <button class="play-btn" id="playBtn">𝅘𝅥𝅮</button>
+  <button class="play-btn" id="playBtn">PLAY</button>
 </div>
   <div class="main">
 
@@ -291,6 +291,20 @@ Lincol 1009
   </div>
   
 
+<script>
+  const audio = document.getElementById("audio");
+  const playBtn = document.getElementById("playBtn");
+
+  playBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = "❚❚"; // pausa
+    } else {
+      audio.pause();
+      playBtn.textContent = "►"; // play
+    }
+  });
+</script>
 
 
 
