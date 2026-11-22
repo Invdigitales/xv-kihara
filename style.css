@@ -1,6 +1,8 @@
 * body {
     padding: 0;
     box-sizing: border-box;
+    background-image: url(./imagenes/fondo.jpg);
+    background-size: 100%;
   }
   
   /*PORTADA*/
@@ -31,11 +33,11 @@
   .cr-time > span {
       font-size: 18px;
       font-weight: bold;
-      color: #2d56a5;
+      color: #ececec;
       
   }
   .cr-desc {
-      color: rgb(125, 125, 125);
+      color: rgb(201, 220, 218);
        font-family: "Playfair Display", serif;
       
   }
@@ -55,14 +57,14 @@ margin-left: 68%;
     text-align: center;
               font-family: "Poppins", sans-serif;
        font-size: 18px;
-       color: #6b6b6b;
-       margin-top: -705%;
+       color: #ffffff;
+       margin-top: 5%;
   }
 .subtitulo{
       text-align: center;
     font-family: 'Great Vibes', cursive;
-     font-size: 40px;
-     color: #2d56a5;
+     font-size: 45px;
+     color: #d4ddef;
      margin-top: 18%;
      text-align: center;
     
@@ -75,37 +77,47 @@ margin-left: 68%;
 
       text-align: center;
     font-family: 'Great Vibes', cursive;
-     font-size: 40px;
-     color: #2d56a5;
+     font-size: 45px;
+     color: #c9d4ea;
      margin-top: 18%;
     
 }
+.mariposas{
+  width: 30%;
+}
+
+.mariposasdos{
+  width: 30%;
+  margin-left: 75%;
+}
+
+
   .maga{
       text-align: center;
     font-family: 'Great Vibes', cursive;
-     font-size: 43px;
-     color: #2d56a5;
+     font-size: 45px;
+     color: #ccd5e8;
      margin-top: 1%;
   }
 .texto{
     text-align: center;
               font-family: "Poppins", sans-serif;
        font-size: 18px;
-       color: #6b6b6b;
+       color: #ffffff;
        margin-top: -5%;
 }
   .parrafo2{
     text-align: center;
     font-family: 'Great Vibes', cursive;
-     font-size: 40px;
-     color: #2d56a5;
-     margin-top: -5%;
+     font-size: 45px;
+     color: #bac8e4;
+     margin-top: 5%;
   }
   .parrafo3{
     text-align: center;
      font-family: "Poppins", sans-serif;
      font-size: 18px;
-     color: #6f6e6e;
+     color: #ffffff;
   }
   .click1 {
     padding: 2px 10px;
@@ -141,11 +153,11 @@ margin-left: 68%;
     margin-left: 44%;
   }
    .copas{
-    width: 43%;
+    width: 28%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5;
+    margin-top: 5;
   }
  .imguno{
   width: 90%;
@@ -162,7 +174,7 @@ margin-left: 68%;
     text-align: center;
     font-family: 'Dancing Script', cursive; 
      font-size: 27px;
-     color: #888888;
+     color: #fefefe;
      margin-top: -40%;
      
 
@@ -238,20 +250,20 @@ margin-left: 68%;
     text-align: center;
     font-family: 'Dancing Script', cursive; 
      font-size: 27px;
-     color: #888888;
+     color: #fefefe;
   }
   .cardtext{
     text-align: center;
     font-family: 'Dancing Script', cursive;
      font-size: 18px;
-     color: #888888;
+     color: #ffffff;
      margin-top: 10%;
   }
   .cardtext1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
      font-size: 18px;
-     color: #888888;
+     color: #ffffff;
      margin-top: 3%;
   }
  
@@ -283,8 +295,8 @@ margin-left: 68%;
  .parrafo6{
    text-align: center;
     font-family: 'Great Vibes', cursive;
-     font-size: 40px;
-     color: #2d56a5;
+     font-size: 45px;
+     color: #c8d4ed;
      margin-top: 5%;
     
      
@@ -301,7 +313,7 @@ margin-left: 68%;
   text-align: center;
     font-family:'Times New Roman', Times, serif; 
      font-size: 17px;
-     color:#2d56a5;
+     color:#e0e3eb;
     
  }
  .whatsap2{
@@ -360,7 +372,7 @@ margin-left: 48%;
 }
  .parrafo_deposito{
   text-align: center;
-  color: #686868;
+  color: #f8f8f8;
   font-size: 25px;
   font-family: 'Great Vibes', cursive;
 
@@ -376,7 +388,7 @@ margin-left: 48%;
 }
 .card_card-body{
   text-align: center;
-  color: #686868;
+  color: #f8f3f3;
   font-size: 16px;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -402,8 +414,8 @@ margin-left: 48%;
          text-align: center;
               font-family: "Poppins", sans-serif;
        font-size: 20px;
-       color: #6b6b6b;
-       margin-top: 20%;
+       color: #fcf8f8;
+       margin-top: -10%;
  }
  .linea4{
   margin-top: -5%;
@@ -420,7 +432,7 @@ margin-left: 48%;
 
 .calendario{
   width: 70%;
-  margin-top: 8%;
+  margin-top: -10%;
    display: block;
     margin-left: auto;
     margin-right: auto;
@@ -617,7 +629,7 @@ margin-top: -50%;
   .music-player {
     width: 50px;
   height: 50px;
-  background: #5b52a0a2;
+  background: #2b2652b1;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -635,7 +647,7 @@ margin-top: -50%;
   }
 
 .music-form {
-      background: #ffffff;
+      background: #617374;
       padding: 15px 20px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -645,7 +657,7 @@ margin-top: -50%;
     }
     .music-form h2 {
       margin-top: 0;
-      color: #333;
+      color: #ffffff;
       text-align: center;
       text-align: center;
     }
@@ -657,7 +669,7 @@ margin-top: -50%;
       display: block;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #555;
+      color: #ffffff;
       text-align: center;
     }
     .form-group input {
@@ -717,8 +729,8 @@ margin-top: -50%;
 
    text-align: center;
     font-family: 'Great Vibes', cursive;
-     font-size: 40px;
-     color: #2d56a5;
+     font-size: 45px;
+     color: #f4f5f6;
      margin-top: 20%;
     
      
