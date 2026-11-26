@@ -683,7 +683,7 @@ margin-top: -50%;
     }
     .btn-submit {
    padding: 2px 10px;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 1200;
     border: none;
     color: rgb(255, 255, 255);
@@ -691,7 +691,8 @@ margin-top: -50%;
     border-radius: 7px;
     box-shadow: 1px 1px 30px -5px rgb(232, 248, 207);
     cursor: pointer;
-    margin-left: 32%;
+    margin-left: 29%;
+    text-decoration: none;
     background-size: 120%;
     margin-top: 4%;
     background-image: url(./imagenes/brillo.gif);
